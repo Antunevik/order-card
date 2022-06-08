@@ -1,10 +1,11 @@
-import Component4 from "./Components/Component4";
+import Card from "./Components/Card";
 
 function App() {
   return (
     <div>
-      hej hej
-      <Component4 />
+
+      <Card />
+
     </div>
   );
 }
