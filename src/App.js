@@ -1,12 +1,18 @@
+
 import Wrapper from "./Components/Wrapper";
+import Card from "./Components/Card";
 import "./index.css";
 
 function App() {
   return (
     <Wrapper>
-      <div>hej hej</div>
+      <div>
+      <Card />
+    </div>
     </Wrapper>
-  );
+    
+    )
+
 }
 
 export default App;
