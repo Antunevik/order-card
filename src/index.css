@@ -7,20 +7,43 @@
 .wrapper {
     height: 100vh;
     width: 100vw;
+    background-color: hsl(225, 100%, 94%);
     background-image: url(./images/pattern-background-desktop.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    
     
 }
 
-body {
+.card {
+    
+    height: 100vh;
+    width: 100vw;
     background-color: hsl(225, 100%, 94%);
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+
+}
+
+.border {
+    height: 600px;
+    width: 300px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 
 
 @media screen and (max-width: 375px) {
-    .wrapper {
+    .card {
         background-image: url(./images/pattern-background-mobile.svg);
     }
 }
